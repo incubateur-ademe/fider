@@ -122,6 +122,6 @@
     "node": "21.x || 22.x"
   },
   "scripts": {
-    "heroku-postbuild": "make build-ssr && make build-ui"
+    "scalingo-postbuild": "make build-ssr && make build-ui"
   }
 }
